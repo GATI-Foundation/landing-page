@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labour Market Intelligence Tools · GATI Foundation</title>
+  <meta name="description" content="GATI Foundation's labour market intelligence tools: employer demand abroad, where Indian talent already works, training infrastructure in India, and daily global skills mobility news.">
+  <meta name="theme-color" content="#00383E">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Labour Market Intelligence Tools · GATI Foundation">
+  <meta property="og:description" content="Open, sourced data tools on demand, mobility, readiness and policy signals for global skills mobility from India.">
+  <meta property="og:image" content="assets/img/gati-logo.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/hub.css?v=1">
+  <script>
+    /* Show the splash once per browser session. Repeat visits in the same
+       session skip straight to the page. */
+    try { if (sessionStorage.getItem('gati-hub-splash')) document.documentElement.classList.add('no-splash'); } catch (e) {}
+  </script>
+  <style>.no-splash #splash{display:none}</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ====== SPLASH LOADER ====== -->
+<div id="splash" role="status" aria-live="polite" aria-label="Loading GATI Labour Market Intelligence Tools">
+  <img class="sp-logo" src="assets/img/gati-logo-white.svg" alt="GATI, Global Access to Talent from India">
+  <p class="sp-title">Labour Market Intelligence Tools</p>
+  <div class="sp-bar"><i></i></div>
+  <p class="sp-line" id="sp-line">Mapping where the world needs skilled workers.</p>
+  <span class="sp-skip">Click anywhere to skip</span>
+</div>
+
+<!-- ====== HEADER ====== -->
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="GATI Labour Market Intelligence Tools, back to top">
+      <img src="assets/img/gati-logo-white.svg" alt="GATI">
+      <span class="div" aria-hidden="true"></span>
+      <span>
+        <span class="t1">Labour Market Intelligence Tools</span>
+        <span class="t2">GATI Foundation · Global Access to Talent from India</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#tools">Tools</a>
+      <a href="#pathway">How they connect</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="cta" href="https://www.gatifoundation.org/" target="_blank" rel="noopener">gatifoundation.org</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <p class="eyebrow">GATI Foundation · Data and research</p>
+      <h1>Labour Market <em>Intelligence</em> Tools</h1>
+      <p class="lede">Four connected tools for global skills mobility from India: where employers abroad are hiring, where Indian talent already works, where candidates can train at home, and which policy changes are shifting the picture.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#tools">Explore the tools
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
+        <a class="btn btn-ghost" href="#about">About the data</a>
+      </div>
+
+      <nav class="pathway" id="pathway" aria-label="The four lenses"><!-- filled from tools.js --></nav>
+    </div>
+  </section>
+
+  <!-- ====== TOOLS ====== -->
+  <section class="section" id="tools">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div>
+          <span class="kicker">The tools</span>
+          <h2>Demand, mobility, readiness and signals</h2>
+        </div>
+        <p>Each tool answers one question and names its sources. Open any of them in a new tab. They run independently and need no sign-in.</p>
+      </div>
+      <ol class="tools" id="tool-list"><!-- filled from tools.js --></ol>
+      <noscript>
+        <ul>
+          <li><a href="https://job-demand-dashboard.vercel.app/">Labour Demand Dashboard</a></li>
+          <li><a href="https://population-velocity-dashboard.vercel.app/">Indian Global Mobility Dashboard</a></li>
+          <li><a href="https://gati-health-lang-infra-maps.vercel.app/">Language &amp; Health Infrastructure Map</a></li>
+          <li><a href="https://gsm-news-tracker.vercel.app/">Global Skills Mobility News Tracker</a></li>
+        </ul>
+      </noscript>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div class="reveal">
+        <span class="kicker">About</span>
+        <h2>Evidence for safer, more scalable skills mobility</h2>
+        <p>GATI Foundation (Global Access to Talent from India) is a non-profit building the systems, partnerships and pathways that make global skills mobility simpler, safer and more scalable.</p>
+        <p>These tools are part of GATI's data and research work. They give governments, employers, training providers and funders a shared, sourced view of where demand sits abroad, where Indian workers already go, and what it takes to prepare them at home.</p>
+      </div>
+      <div class="reveal">
+        <span class="kicker">How to read the data</span>
+        <ul class="principles">
+          <li><span class="n">01</span><div><b>Every figure is sourced</b><span>Each tool lists its datasets, publishers and reference years on the page.</span></div></li>
+          <li><span class="n">02</span><div><b>Snapshot or live, always labelled</b><span>Job-posting data is a dated snapshot. The news tracker updates every weekday. Each tool says which it is.</span></div></li>
+          <li><span class="n">03</span><div><b>International classifications</b><span>Occupations follow ISCO-08 (ILO) and employer sectors follow ISIC Rev.4 (UN), so results compare across countries.</span></div></li>
+          <li><span class="n">04</span><div><b>Raw counts first</b><span>Maps and tables show counts as collected, with notes on gaps and estimates, rather than composite scores.</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT BAND ====== -->
+  <section class="contact-band" id="contact">
+    <div class="wrap">
+      <div>
+        <h2>Questions, data requests or partnerships</h2>
+        <p>Write to the GATI team about the tools, the underlying data, or working together on a mobility corridor.</p>
+      </div>
+      <a class="btn btn-gold" href="mailto:info@gatifoundation.org?subject=Labour%20Market%20Intelligence%20Tools">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+        info@gatifoundation.org</a>
+    </div>
+  </section>
+</main>
+
+<!-- ====== FOOTER ====== -->
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div>
+      <img class="foot-logo" src="assets/img/gati-logo-white.svg" alt="GATI Foundation">
+      <p class="foot-badge">Official GATI Foundation tools</p>
+      <p class="foot-tag">Global Access to Talent from India, building the global skills-mobility ecosystem.</p>
+    </div>
+    <div>
+      <h4>Tools</h4>
+      <ul id="foot-tools"><!-- filled from tools.js --></ul>
+    </div>
+    <div>
+      <h4>Address</h4>
+      <address>GATI Foundation<br>242, Okhla Industrial Estate Phase 3 Rd<br>Okhla Phase III, New Delhi<br>Delhi 110020, India</address>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@gatifoundation.org">info@gatifoundation.org</a></li>
+        <li><a href="https://www.gatifoundation.org/" target="_blank" rel="noopener">gatifoundation.org</a></li>
+        <li><a href="https://gatifoundation.org/who-we-are" target="_blank" rel="noopener">Who we are</a></li>
+        <li><a href="https://www.linkedin.com/company/gati-foundation/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-base">
+    <div class="wrap">
+      <span>&copy; <span id="yr">2026</span> GATI Foundation. Incubated by The Convergence Foundation.</span>
+      <span>Occupations classified to ISCO-08 (ILO) · Employer sectors to ISIC Rev.4 (UN)</span>
+    </div>
+  </div>
+</footer>
+
+<button id="to-top" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="assets/js/tools.js?v=1"></script>
+<script src="assets/js/hub.js?v=1"></script>
+</body>
+</html>
